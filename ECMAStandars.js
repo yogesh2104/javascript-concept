@@ -55,3 +55,64 @@ let IsLoggedInBoool=undefined
 // undefined => false
 
 // if convert into String we use String() method
+
+
+// *********** operation **************
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+// console.log(2+2) //!4
+// console.log(2+'2') //!22
+// console.log('2'+2) //!22
+// console.log('1'+2+2) //! 122
+// console.log(1+2+'2') //!32
+
+
+
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+// console.log(2>1)
+// console.log(2>=1)
+// console.log(2<1)
+// console.log(2<=1)
+// console.log(2==1)
+// console.log(2!=1)
+
+// console.log(null>0) //false
+// console.log(null==0) //false
+// console.log(null>=0) //true
+
+// null>0 ===> true because the reason is that an equality check == and comparison > <>= <= work differently. comparison convert null to number treating it as 0 thats why true and null>0 ===>false
+
+//* datatype summary
+// ? Primitive Data Type
+// 7 type :- Strign,Number,Boolean,Null, undefined, BigInt, Symbol
+
+//! With Primitive Data when we use it give as copy , not original memory location when we change it change in copy .
+
+
+//* Non-primitive(refrence Type)
+//? 2 type :- Array,Object,function
+//! with non-primitive data type when we call its give as memory reference 
+
+
+// *********** Typeof result  **************
+
+// ?undefined = "undefined";
+// !null = "object";
+//? Boolean=Boolean;
+//? Number=Number;
+// ?String=String;
+// ?Object(native and does not impolement[[call]]) ="object";
+
+// ?Object(native or host and does not impolement[[call]]) ="function";
+
+
+// ?Object(host and does not impolement[[call]]) ="Impelment-defined except may not be "undefinded","boolean", "number", "string" ";
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3   //for details 
