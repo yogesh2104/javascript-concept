@@ -31,10 +31,15 @@ const myarr=new Array(1,2,3,4,5)
 
 //slice,splice
 
-const myArr1 = [2,3,4,5,6,7,8]
+const myArr1 = Array.of
 // console.log(myArr1.slice()) // return section of array two param need start and end and most important slice not modify original array
 // otherhand splice change original array 
-
+// concat ----> combine tow or more array this return new array without modifying exiting array
+// spread operater we use (...) three dot to spreade all value
+// flat(number of depth, simply infinity) ----> return new array with all sub-array element concatenated into it recursively up to the specified depth
+// isArray ----> return true and false
+// from -----> this convert into array if we use from on object return empty array [] if not able to convert into array 
+// of ----> return new array from set of element.
 
 
 
