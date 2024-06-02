@@ -1,0 +1,61 @@
+An algorithms is well-defined instructions to solve the perticular problem
+like make tasty dish you need ingredients ----- recipe ----- tasty dish
+
+
+cup of noodles 
+taaste maker water     ---- 1) Boil water              ------------    Tasty Noodles
+                            2) Pour water into cup
+                            3) Add taste maker
+                            4) close lid and wait 4 minutes
+
+*---> algorithms has well defined inputs and outputs
+*---> Each steps should be clear and unambiguous
+*---> algorithms are language independent
+
+### Why learn algorithms 
+
+As a developer you're going to come across problem that you need to solve
+learing algorithms translate to learing diffrent techniques to efficiently solve those problem.
+one problem can solve in many ways using diffrent algorithms.
+
+
+### Algorithms analysis contd.
+
+we evaluate the performance of the algorithm in terms of inputs size.
+Time Complexity - Amount of time taken by algorithm to run as fuctions of input size.
+Space Complexity - Amount of mamory taken by algorithm to run as a function of input size.
+
+
+### algorithms analysis
+
+There are multiple ways to solve problem 
+
+Ex. There are multiple algorithms to sort a list of number.
+How do we analyse which of these is most efficient algorithms ? 
+generally when we talk about performance, we use an absolute measure.
+
+
+
+### How  to represent Complexity
+
+Asymptotic notations
+
+
+Mathematical Tools to represent time and space Complexity.
+
+1. Big-O notation(O-notation) - worst case Complexity
+2. Omega Notation(Ω-notation) - Best case Complexity
+3. Theta Notation(θ-notation) - avarage case Complexity
+
+Big-O Notation 
+
+The worst case Complexity of an algorithm is represented using the Big-O notation
+
+Big-O notation describes Complexity of an algorithm using algebric terms
+
+It has Two Important characteristics 
+1.it is expressed in of the  input.
+2.it focuses on the bigger picture without geting caught up in the minutes details.
+
+
+
